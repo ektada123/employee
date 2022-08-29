@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  hostURL: 'http://localhost',
+  username : 'ekta',
+  token : 'abc',
+  port: '4200',
+  envName : 'local'
 };
 
 /*
